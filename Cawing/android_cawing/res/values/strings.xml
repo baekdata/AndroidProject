@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">sGen</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_customer">CustomerActivity</string>
+    <string name="title_activity_revenue">RevenueActivity</string>
+    <string name="title_activity_product">ProductActivity</string>
+    <string name="title_activity_agreement">AgreementActivity</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sub_page04">SubPage04Activity</string>
+    <string name="title_activity_add_post">AddPostActivity</string>
+
+</resources>

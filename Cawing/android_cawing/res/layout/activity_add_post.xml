@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp" >
+
+        <Button
+            android:id="@+id/backButton"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.84"
+            android:gravity="center"
+            android:text="내 주변 사고 알리미"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!--
+         <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="354dp" >
+
+        <Button
+            android:id="@+id/text01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="내용1" />
+
+        <Button
+            android:id="@+id/text02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="내용2" />
+
+        <Button
+            android:id="@+id/text03"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="내용3" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/startbtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Tap1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/startbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap2"
+            android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <Button
+            android:id="@+id/startbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap3"
+  			android:layout_margin="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/addBtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="등록하기" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소하기" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.04"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:gravity="top" >
+
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

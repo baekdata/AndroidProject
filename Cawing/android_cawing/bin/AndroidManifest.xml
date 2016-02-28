@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sgen"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.sgen.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.sgen.MainActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="com.example.sgen.CustomerActivity"
+            android:label="@string/title_activity_customer" >
+        </activity>
+        <activity
+            android:name="com.example.sgen.RevenueActivity"
+            android:label="@string/title_activity_revenue" >
+        </activity>
+        <activity
+            android:name="com.example.sgen.ProductActivity"
+            android:label="@string/title_activity_product" >
+        </activity>
+        <activity
+            android:name="com.example.sgen.AgreementActivity"
+            android:label="@string/title_activity_agreement" >
+        </activity>
+        <activity android:name="com.example.sgen.SubPage01Activity" >
+        </activity>
+        <activity android:name="com.example.sgen.SubPage02Activity" >
+        </activity>
+        <activity android:name="com.example.sgen.SubPage03Activity" >
+        </activity>
+        <activity
+            android:name="com.example.sgen.SubPage04Activity"
+            android:label="@string/title_activity_sub_page04" >
+        </activity>
+        <activity
+            android:name="com.example.sgen.AddPostActivity"
+            android:label="@string/title_activity_add_post" >
+        </activity>
+    </application>
+
+</manifest>
