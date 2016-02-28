@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/SamplePushMessage/libs/gcm-server.jar"/>
+	<classpathentry kind="lib" path="/SamplePushMessage/libs/gcm.jar"/>
+	<classpathentry kind="lib" path="/SamplePushMessage/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/base64coder.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/bcprov-jdk15-146.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/dsn.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/gcm-server.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/htmlcleaner-2.2.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/imap.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/JavaPNS_2.2.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/mail.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/mysql-connector-java-5.1.15-bin.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/pop3.jar"/>
+	<classpathentry kind="lib" path="/CawingPushServer/libs/smtp.jar"/>
+	<classpathentry kind="lib" path="/sGen/libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="/sGen/libs/gcm.jar"/>
+	<classpathentry kind="lib" path="/sGen/libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/sGen/libs/nmaps.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
